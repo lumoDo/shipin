@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14D131" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="2MS-VB-iKe">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="u3V-t6-9Ie">
+            <objects>
+                <navigationController id="2MS-VB-iKe" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="xTg-hx-dat">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="3Cn-jO-V8H" kind="push" id="rlm-KB-Wcq"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="YTP-Vc-UVb" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1027.5" y="-307.5"/>
+        </scene>
+        <!--星光大道-->
+        <scene sceneID="MJZ-0B-YY6">
+            <objects>
+                <viewController id="3Cn-jO-V8H" customClass="AvenueofstarsViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="nD4-6l-fbv"/>
+                        <viewControllerLayoutGuide type="bottom" id="duc-a6-ncX"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8rS-gg-6pi">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="8rz-1T-ti7">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <color key="backgroundColor" red="0.96078431369999995" green="0.96078431369999995" blue="0.96078431369999995" alpha="1" colorSpace="calibratedRGB"/>
+                                <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="Txd-K6-ART">
+                                    <size key="itemSize" width="194" height="180"/>
+                                    <size key="headerReferenceSize" width="50" height="229"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                </collectionViewFlowLayout>
+                                <cells>
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="UBb-Dn-P3q">
+                                        <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                            <rect key="frame" x="0.0" y="0.0" width="194" height="180"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        </view>
+                                    </collectionViewCell>
+                                </cells>
+                                <collectionReusableView key="sectionHeaderView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="i85-ek-k7r">
+                                    <rect key="frame" x="0.0" y="0.0" width="320" height="50"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <subviews>
+                                        <button opaque="NO" tag="101" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="a3X-yD-TF4">
+                                            <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                            <color key="backgroundColor" red="0.6588235294" green="0.14117647059999999" blue="0.1019607843" alpha="1" colorSpace="calibratedRGB"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                            <state key="normal" title="星光大道">
+                                                <color key="titleColor" red="0.96078431369999995" green="0.96078431369999995" blue="0.96078431369999995" alpha="1" colorSpace="calibratedRGB"/>
+                                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                            </state>
+                                            <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                                <rect key="frame" x="106" y="191" width="90" height="30"/>
+                                            </variation>
+                                        </button>
+                                        <button opaque="NO" tag="102" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0CI-1m-L2F">
+                                            <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                            <color key="backgroundColor" red="0.6588235294" green="0.14117647059999999" blue="0.1019607843" alpha="1" colorSpace="calibratedRGB"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                            <state key="normal" title="最美童声">
+                                                <color key="titleColor" red="0.96078431369999995" green="0.96078431369999995" blue="0.96078431369999995" alpha="1" colorSpace="calibratedRGB"/>
+                                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                            </state>
+                                            <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                                <rect key="frame" x="203" y="191" width="90" height="30"/>
+                                            </variation>
+                                        </button>
+                                        <button opaque="NO" tag="103" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="D1Y-Tm-YEH">
+                                            <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                            <color key="backgroundColor" red="0.6588235294" green="0.14117647059999999" blue="0.1019607843" alpha="1" colorSpace="calibratedRGB"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                            <state key="normal" title="模特大赛">
+                                                <color key="titleColor" red="0.96078431369999995" green="0.96078431369999995" blue="0.96078431369999995" alpha="1" colorSpace="calibratedRGB"/>
+                                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                            </state>
+                                            <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                                <rect key="frame" x="299" y="191" width="90" height="30"/>
+                                            </variation>
+                                        </button>
+                                        <button opaque="NO" tag="100" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="J9P-KM-hyS">
+                                            <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                            <color key="backgroundColor" red="0.6588235294" green="0.14117647059999999" blue="0.1019607843" alpha="1" colorSpace="calibratedRGB"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                            <state key="normal" title="参赛报名">
+                                                <color key="titleColor" red="0.96078431369999995" green="0.96078431369999995" blue="0.96078431369999995" alpha="1" colorSpace="calibratedRGB"/>
+                                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                            </state>
+                                            <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                                <rect key="frame" x="10" y="191" width="90" height="30"/>
+                                            </variation>
+                                        </button>
+                                    </subviews>
+                                    <variation key="default">
+                                        <mask key="subviews">
+                                            <exclude reference="a3X-yD-TF4"/>
+                                            <exclude reference="0CI-1m-L2F"/>
+                                            <exclude reference="D1Y-Tm-YEH"/>
+                                            <exclude reference="J9P-KM-hyS"/>
+                                        </mask>
+                                    </variation>
+                                    <variation key="heightClass=regular-widthClass=compact">
+                                        <mask key="subviews">
+                                            <include reference="a3X-yD-TF4"/>
+                                            <include reference="0CI-1m-L2F"/>
+                                            <include reference="D1Y-Tm-YEH"/>
+                                            <include reference="J9P-KM-hyS"/>
+                                        </mask>
+                                    </variation>
+                                </collectionReusableView>
+                                <connections>
+                                    <outlet property="dataSource" destination="3Cn-jO-V8H" id="Rc0-Kx-fnl"/>
+                                    <outlet property="delegate" destination="3Cn-jO-V8H" id="fNl-7s-y7E"/>
+                                </connections>
+                            </collectionView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="8rz-1T-ti7" secondAttribute="bottom" id="0sq-j4-7OF"/>
+                            <constraint firstItem="8rz-1T-ti7" firstAttribute="leading" secondItem="8rS-gg-6pi" secondAttribute="leading" id="HFq-4s-gSN"/>
+                            <constraint firstItem="8rz-1T-ti7" firstAttribute="top" secondItem="8rS-gg-6pi" secondAttribute="top" id="h7a-Hg-eC0"/>
+                            <constraint firstAttribute="trailing" secondItem="8rz-1T-ti7" secondAttribute="trailing" id="kNg-u3-a6Q"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="8rz-1T-ti7"/>
+                            </mask>
+                            <mask key="constraints">
+                                <exclude reference="0sq-j4-7OF"/>
+                                <exclude reference="HFq-4s-gSN"/>
+                                <exclude reference="h7a-Hg-eC0"/>
+                                <exclude reference="kNg-u3-a6Q"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular-widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="8rz-1T-ti7"/>
+                            </mask>
+                            <mask key="constraints">
+                                <include reference="0sq-j4-7OF"/>
+                                <include reference="HFq-4s-gSN"/>
+                                <include reference="h7a-Hg-eC0"/>
+                                <include reference="kNg-u3-a6Q"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <navigationItem key="navigationItem" title="星光大道" id="Sd8-Ir-r5h">
+                        <barButtonItem key="backBarButtonItem" title="返回" id="MIh-CT-r84"/>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="21j-xr-Z0q" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-351" y="-307.5"/>
+        </scene>
+    </scenes>
+</document>

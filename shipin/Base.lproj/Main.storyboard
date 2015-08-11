@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14D131" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Vlv-B3-re3">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="16" y="91" width="343" height="258"/>
+                                </variation>
+                            </view>
+                            <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="AZp-ud-Zkx">
+                                <rect key="frame" x="0.0" y="-2" width="150" height="2"/>
+                                <color key="progressTintColor" red="1" green="0.5" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="104" y="397" width="150" height="2"/>
+                                </variation>
+                            </progressView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="6SB-Ux-1Rj">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="67" y="0.0" width="240" height="128"/>
+                                </variation>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fpK-C3-qNg">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <state key="normal" title="Button">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="50" y="383" width="46" height="30"/>
+                                </variation>
+                                <connections>
+                                    <action selector="playClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="UdH-0p-bDL"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="Vlv-B3-re3"/>
+                                <exclude reference="AZp-ud-Zkx"/>
+                                <exclude reference="6SB-Ux-1Rj"/>
+                                <exclude reference="fpK-C3-qNg"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular-widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="Vlv-B3-re3"/>
+                                <include reference="AZp-ud-Zkx"/>
+                                <include reference="6SB-Ux-1Rj"/>
+                                <include reference="fpK-C3-qNg"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="container" destination="Vlv-B3-re3" id="xEq-cL-Rwp"/>
+                        <outlet property="ik" destination="6SB-Ux-1Rj" id="Lbv-8L-NfD"/>
+                        <outlet property="progress" destination="AZp-ud-Zkx" id="JqR-ot-egF"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-167.25" y="226.125"/>
+        </scene>
+    </scenes>
+</document>
