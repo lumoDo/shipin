@@ -13,6 +13,7 @@
 @property (weak, nonatomic) IBOutlet UILabel *dianZ;
 @property (weak, nonatomic) IBOutlet UIImageView *userImage;
 @property (weak, nonatomic) IBOutlet UIView *mpOne;
+@property (weak, nonatomic) IBOutlet UIImageView *oneMp;
 
 
 
