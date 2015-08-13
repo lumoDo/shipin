@@ -12,16 +12,22 @@
 @property (weak, nonatomic) IBOutlet UIImageView *bian;
 @property (weak, nonatomic) IBOutlet UIView *oneView;
 - (IBAction)category:(id)sender;
+@property (weak, nonatomic) IBOutlet UIView *cSPAV;
 @property (weak, nonatomic) IBOutlet UISegmentedControl *category;
-
 @property (weak, nonatomic) IBOutlet UITextField *name;
 @property (weak, nonatomic) IBOutlet UISegmentedControl *sex;
 @property (weak, nonatomic) IBOutlet UITextField *numberNear;
 @property (weak, nonatomic) IBOutlet UITextField *land;
 @property (weak, nonatomic) IBOutlet UITextField *numberphone;
-@property (weak, nonatomic) IBOutlet UISegmentedControl *column;
-@property (weak, nonatomic) IBOutlet UITextField *introduction;
-- (IBAction)selfAV:(id)sender;
 - (IBAction)OK:(id)sender;
+@property (weak, nonatomic) IBOutlet UITextField *introduction;
+@property (weak, nonatomic) IBOutlet UIButton *next;
+
+
+@property (weak, nonatomic) IBOutlet UISegmentedControl *column;
+- (IBAction)selfAVX:(id)sender;
+- (IBAction)selfAVT:(id)sender;
+@property (weak, nonatomic) IBOutlet UIButton *selfAVM;
+
 
 @end

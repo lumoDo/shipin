@@ -8,20 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		4A6B40951B78A052004DDD3D /* Avenueofstars.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A6B40921B78A052004DDD3D /* Avenueofstars.storyboard */; };
-		4A6B40961B78A052004DDD3D /* AvenueofstarsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A6B40941B78A052004DDD3D /* AvenueofstarsViewController.m */; };
 		4A6B40991B78A338004DDD3D /* AvenueofastarsCollection.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A6B40981B78A338004DDD3D /* AvenueofastarsCollection.m */; };
 		4A6B409C1B78A4C5004DDD3D /* StarsCollectionHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A6B409B1B78A4C5004DDD3D /* StarsCollectionHeaderView.m */; };
 		4A6B409E1B78A5D7004DDD3D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A6B409D1B78A5D7004DDD3D /* UIKit.framework */; };
 		4A6B40C51B798555004DDD3D /* a.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A6B40C41B798555004DDD3D /* a.png */; };
-		4A6B40C81B798813004DDD3D /* AvenuefaCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A6B40C71B798813004DDD3D /* AvenuefaCollectionViewCell.m */; };
 		4A6B40CA1B79D777004DDD3D /* 底.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A6B40C91B79D777004DDD3D /* 底.png */; };
 		4A6B40CE1B79DBEC004DDD3D /* 详情说明.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A6B40CD1B79DBEC004DDD3D /* 详情说明.png */; };
 		4A6B40D11B79ED1E004DDD3D /* EnrollViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A6B40D01B79ED1E004DDD3D /* EnrollViewController.m */; };
 		4A6B40D41B7AED26004DDD3D /* AVPlayTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A6B40D31B7AED26004DDD3D /* AVPlayTableViewController.m */; };
 		4A6B40D71B7AF043004DDD3D /* AVTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A6B40D61B7AF043004DDD3D /* AVTableViewCell.m */; };
-		4A6B40E11B7B2329004DDD3D /* ChiDCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A6B40E01B7B2329004DDD3D /* ChiDCollectionViewCell.m */; };
 		4A6B40E41B7B23E0004DDD3D /* ChiDCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A6B40E31B7B23E0004DDD3D /* ChiDCollectionViewController.m */; };
 		4A6B40E71B7B24B4004DDD3D /* ChiDCollectionReusableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A6B40E61B7B24B4004DDD3D /* ChiDCollectionReusableView.m */; };
+		4A6B40EA1B7B30D8004DDD3D /* ShowStart.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A6B40E91B7B30D8004DDD3D /* ShowStart.m */; };
+		4A6B40ED1B7B7E13004DDD3D /* dddCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A6B40EC1B7B7E13004DDD3D /* dddCollectionViewCell.m */; };
+		4A6B40EF1B7B80F2004DDD3D /* Jjian.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4A6B40EE1B7B80F2004DDD3D /* Jjian.xib */; };
+		4A6B40F21B7B880C004DDD3D /* AvenuefaCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A6B40F11B7B880C004DDD3D /* AvenuefaCollectionViewCell.m */; };
+		4A6B40FA1B7C864C004DDD3D /* 模特大赛图标.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A6B40F91B7C864C004DDD3D /* 模特大赛图标.png */; };
+		4A6B40FC1B7C8658004DDD3D /* 最美童声图标.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A6B40FB1B7C8658004DDD3D /* 最美童声图标.png */; };
+		4A6B40FE1B7C8689004DDD3D /* 星光大道图标.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A6B40FD1B7C8689004DDD3D /* 星光大道图标.png */; };
 		4A7BE4141B76F5FA00F53E64 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A7BE4131B76F5FA00F53E64 /* main.m */; };
 		4A7BE4171B76F5FA00F53E64 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A7BE4161B76F5FA00F53E64 /* AppDelegate.m */; };
 		4A7BE41A1B76F5FA00F53E64 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A7BE4191B76F5FA00F53E64 /* ViewController.m */; };
@@ -45,16 +49,12 @@
 
 /* Begin PBXFileReference section */
 		4A6B40921B78A052004DDD3D /* Avenueofstars.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Avenueofstars.storyboard; sourceTree = "<group>"; };
-		4A6B40931B78A052004DDD3D /* AvenueofstarsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AvenueofstarsViewController.h; sourceTree = "<group>"; };
-		4A6B40941B78A052004DDD3D /* AvenueofstarsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AvenueofstarsViewController.m; sourceTree = "<group>"; };
 		4A6B40971B78A338004DDD3D /* AvenueofastarsCollection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AvenueofastarsCollection.h; sourceTree = "<group>"; };
 		4A6B40981B78A338004DDD3D /* AvenueofastarsCollection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AvenueofastarsCollection.m; sourceTree = "<group>"; wrapsLines = 1; };
 		4A6B409A1B78A4C5004DDD3D /* StarsCollectionHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StarsCollectionHeaderView.h; sourceTree = "<group>"; };
 		4A6B409B1B78A4C5004DDD3D /* StarsCollectionHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StarsCollectionHeaderView.m; sourceTree = "<group>"; };
 		4A6B409D1B78A5D7004DDD3D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		4A6B40C41B798555004DDD3D /* a.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = a.png; sourceTree = "<group>"; };
-		4A6B40C61B798813004DDD3D /* AvenuefaCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AvenuefaCollectionViewCell.h; sourceTree = "<group>"; };
-		4A6B40C71B798813004DDD3D /* AvenuefaCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AvenuefaCollectionViewCell.m; sourceTree = "<group>"; };
 		4A6B40C91B79D777004DDD3D /* 底.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "底.png"; sourceTree = "<group>"; };
 		4A6B40CD1B79DBEC004DDD3D /* 详情说明.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "详情说明.png"; path = "../详情说明.png"; sourceTree = "<group>"; };
 		4A6B40CF1B79ED1E004DDD3D /* EnrollViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EnrollViewController.h; sourceTree = "<group>"; };
@@ -63,12 +63,20 @@
 		4A6B40D31B7AED26004DDD3D /* AVPlayTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AVPlayTableViewController.m; sourceTree = "<group>"; };
 		4A6B40D51B7AF043004DDD3D /* AVTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AVTableViewCell.h; sourceTree = "<group>"; };
 		4A6B40D61B7AF043004DDD3D /* AVTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AVTableViewCell.m; sourceTree = "<group>"; };
-		4A6B40DF1B7B2329004DDD3D /* ChiDCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChiDCollectionViewCell.h; sourceTree = "<group>"; };
-		4A6B40E01B7B2329004DDD3D /* ChiDCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChiDCollectionViewCell.m; sourceTree = "<group>"; };
 		4A6B40E21B7B23E0004DDD3D /* ChiDCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChiDCollectionViewController.h; sourceTree = "<group>"; };
 		4A6B40E31B7B23E0004DDD3D /* ChiDCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChiDCollectionViewController.m; sourceTree = "<group>"; };
 		4A6B40E51B7B24B4004DDD3D /* ChiDCollectionReusableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChiDCollectionReusableView.h; sourceTree = "<group>"; };
 		4A6B40E61B7B24B4004DDD3D /* ChiDCollectionReusableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChiDCollectionReusableView.m; sourceTree = "<group>"; };
+		4A6B40E81B7B30D8004DDD3D /* ShowStart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShowStart.h; sourceTree = "<group>"; };
+		4A6B40E91B7B30D8004DDD3D /* ShowStart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShowStart.m; sourceTree = "<group>"; };
+		4A6B40EB1B7B7E13004DDD3D /* dddCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dddCollectionViewCell.h; sourceTree = "<group>"; };
+		4A6B40EC1B7B7E13004DDD3D /* dddCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = dddCollectionViewCell.m; sourceTree = "<group>"; };
+		4A6B40EE1B7B80F2004DDD3D /* Jjian.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Jjian.xib; sourceTree = "<group>"; };
+		4A6B40F01B7B880C004DDD3D /* AvenuefaCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AvenuefaCollectionViewCell.h; sourceTree = "<group>"; };
+		4A6B40F11B7B880C004DDD3D /* AvenuefaCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AvenuefaCollectionViewCell.m; sourceTree = "<group>"; };
+		4A6B40F91B7C864C004DDD3D /* 模特大赛图标.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "模特大赛图标.png"; sourceTree = "<group>"; };
+		4A6B40FB1B7C8658004DDD3D /* 最美童声图标.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "最美童声图标.png"; sourceTree = "<group>"; };
+		4A6B40FD1B7C8689004DDD3D /* 星光大道图标.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "星光大道图标.png"; sourceTree = "<group>"; };
 		4A7BE40E1B76F5FA00F53E64 /* shipin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = shipin.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A7BE4121B76F5FA00F53E64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4A7BE4131B76F5FA00F53E64 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -112,8 +120,8 @@
 			children = (
 				4A6B40971B78A338004DDD3D /* AvenueofastarsCollection.h */,
 				4A6B40981B78A338004DDD3D /* AvenueofastarsCollection.m */,
-				4A6B40C61B798813004DDD3D /* AvenuefaCollectionViewCell.h */,
-				4A6B40C71B798813004DDD3D /* AvenuefaCollectionViewCell.m */,
+				4A6B40F01B7B880C004DDD3D /* AvenuefaCollectionViewCell.h */,
+				4A6B40F11B7B880C004DDD3D /* AvenuefaCollectionViewCell.m */,
 				4A6B409A1B78A4C5004DDD3D /* StarsCollectionHeaderView.h */,
 				4A6B409B1B78A4C5004DDD3D /* StarsCollectionHeaderView.m */,
 			);
@@ -143,12 +151,12 @@
 		4A6B40DB1B7B21F4004DDD3D /* 栏目分类 */ = {
 			isa = PBXGroup;
 			children = (
-				4A6B40DF1B7B2329004DDD3D /* ChiDCollectionViewCell.h */,
-				4A6B40E01B7B2329004DDD3D /* ChiDCollectionViewCell.m */,
 				4A6B40E21B7B23E0004DDD3D /* ChiDCollectionViewController.h */,
 				4A6B40E31B7B23E0004DDD3D /* ChiDCollectionViewController.m */,
 				4A6B40E51B7B24B4004DDD3D /* ChiDCollectionReusableView.h */,
 				4A6B40E61B7B24B4004DDD3D /* ChiDCollectionReusableView.m */,
+				4A6B40EB1B7B7E13004DDD3D /* dddCollectionViewCell.h */,
+				4A6B40EC1B7B7E13004DDD3D /* dddCollectionViewCell.m */,
 			);
 			name = "栏目分类";
 			sourceTree = "<group>";
@@ -181,12 +189,14 @@
 				4A6B40DA1B7B20F6004DDD3D /* 播放 */,
 				4A6B40D91B7B2010004DDD3D /* 报名 */,
 				4A6B40D81B7AF8F3004DDD3D /* 首页 */,
+				4A6B40921B78A052004DDD3D /* Avenueofstars.storyboard */,
+				4A6B40EE1B7B80F2004DDD3D /* Jjian.xib */,
+				4A6B40FD1B7C8689004DDD3D /* 星光大道图标.png */,
+				4A6B40FB1B7C8658004DDD3D /* 最美童声图标.png */,
+				4A6B40F91B7C864C004DDD3D /* 模特大赛图标.png */,
 				4A6B40C41B798555004DDD3D /* a.png */,
 				4A6B40C91B79D777004DDD3D /* 底.png */,
 				4A6B40CD1B79DBEC004DDD3D /* 详情说明.png */,
-				4A6B40921B78A052004DDD3D /* Avenueofstars.storyboard */,
-				4A6B40931B78A052004DDD3D /* AvenueofstarsViewController.h */,
-				4A6B40941B78A052004DDD3D /* AvenueofstarsViewController.m */,
 				4A7BE4151B76F5FA00F53E64 /* AppDelegate.h */,
 				4A7BE4161B76F5FA00F53E64 /* AppDelegate.m */,
 				4A7BE4181B76F5FA00F53E64 /* ViewController.h */,
@@ -195,6 +205,8 @@
 				4A7BE41E1B76F5FA00F53E64 /* Images.xcassets */,
 				4A7BE4201B76F5FA00F53E64 /* LaunchScreen.xib */,
 				4A7BE4111B76F5FA00F53E64 /* Supporting Files */,
+				4A6B40E81B7B30D8004DDD3D /* ShowStart.h */,
+				4A6B40E91B7B30D8004DDD3D /* ShowStart.m */,
 			);
 			path = shipin;
 			sourceTree = "<group>";
@@ -309,8 +321,12 @@
 				4A6B40951B78A052004DDD3D /* Avenueofstars.storyboard in Resources */,
 				4A7BE4221B76F5FA00F53E64 /* LaunchScreen.xib in Resources */,
 				4A6B40CA1B79D777004DDD3D /* 底.png in Resources */,
+				4A6B40FA1B7C864C004DDD3D /* 模特大赛图标.png in Resources */,
+				4A6B40FE1B7C8689004DDD3D /* 星光大道图标.png in Resources */,
+				4A6B40FC1B7C8658004DDD3D /* 最美童声图标.png in Resources */,
 				4A6B40C51B798555004DDD3D /* a.png in Resources */,
 				4A6B40CE1B79DBEC004DDD3D /* 详情说明.png in Resources */,
+				4A6B40EF1B7B80F2004DDD3D /* Jjian.xib in Resources */,
 				4A7BE41F1B76F5FA00F53E64 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -332,16 +348,16 @@
 				4A6B40E71B7B24B4004DDD3D /* ChiDCollectionReusableView.m in Sources */,
 				4A6B40E41B7B23E0004DDD3D /* ChiDCollectionViewController.m in Sources */,
 				4A7BE41A1B76F5FA00F53E64 /* ViewController.m in Sources */,
-				4A6B40C81B798813004DDD3D /* AvenuefaCollectionViewCell.m in Sources */,
 				4A6B40D41B7AED26004DDD3D /* AVPlayTableViewController.m in Sources */,
 				4A6B40D71B7AF043004DDD3D /* AVTableViewCell.m in Sources */,
+				4A6B40ED1B7B7E13004DDD3D /* dddCollectionViewCell.m in Sources */,
 				4A6B409C1B78A4C5004DDD3D /* StarsCollectionHeaderView.m in Sources */,
-				4A6B40961B78A052004DDD3D /* AvenueofstarsViewController.m in Sources */,
+				4A6B40EA1B7B30D8004DDD3D /* ShowStart.m in Sources */,
 				4A6B40D11B79ED1E004DDD3D /* EnrollViewController.m in Sources */,
 				4A6B40991B78A338004DDD3D /* AvenueofastarsCollection.m in Sources */,
 				4A7BE4171B76F5FA00F53E64 /* AppDelegate.m in Sources */,
-				4A6B40E11B7B2329004DDD3D /* ChiDCollectionViewCell.m in Sources */,
 				4A7BE4141B76F5FA00F53E64 /* main.m in Sources */,
+				4A6B40F21B7B880C004DDD3D /* AvenuefaCollectionViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

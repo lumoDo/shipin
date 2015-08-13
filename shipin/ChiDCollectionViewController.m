@@ -7,8 +7,11 @@
 //
 
 #import "ChiDCollectionViewController.h"
+#import "ShowStart.h"
+#import "ChiDCollectionReusableView.h"
+#import "AvenuefaCollectionViewCell.h"
+@interface ChiDCollectionViewController ()<UICollectionViewDataSource,UICollectionViewDelegate,UICollectionViewDelegateFlowLayout>
 
-@interface ChiDCollectionViewController ()
 
 @end
 
@@ -18,13 +21,14 @@ static NSString * const reuseIdentifier = @"Cell";
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
+
     // Uncomment the following line to preserve selection between presentations
     // self.clearsSelectionOnViewWillAppear = NO;
     
     // Register cell classes
-    [self.collectionView registerClass:[UICollectionViewCell class] forCellWithReuseIdentifier:reuseIdentifier];
-    
+
+
+
     // Do any additional setup after loading the view.
 }
 
@@ -45,25 +49,73 @@ static NSString * const reuseIdentifier = @"Cell";
 
 #pragma mark <UICollectionViewDataSource>
 
+- (CGSize)collectionView:(UICollectionView *)collectionView layout:(UICollectionViewLayout*)collectionViewLayout referenceSizeForHeaderInSection:(NSInteger)section{
+    CGSize size=CGSizeZero;
+    size=CGSizeMake(([UIScreen mainScreen].bounds.size.width-32)/2, 220);
+    
+    return size;
+}
+- (UICollectionReusableView *)collectionView:(UICollectionView *)collectionView viewForSupplementaryElementOfKind:(NSString *)kind atIndexPath:(NSIndexPath *)indexPath
+
+{
+    
+    UICollectionReusableView *reusableview = nil;
+    
+    if (kind == UICollectionElementKindSectionHeader){
+        
+        
+        ChiDCollectionReusableView *headerView = [collectionView dequeueReusableSupplementaryViewOfKind:UICollectionElementKindSectionHeader withReuseIdentifier:@"headerCell" forIndexPath:indexPath];
+        [[headerView.biaoT layer] setCornerRadius:5.0f];
+        [[headerView.biaoT layer] setMasksToBounds:YES];
+
+        reusableview=headerView;
+        
+    }
+    return reusableview;
+
+}
+
+////cell
 - (NSInteger)numberOfSectionsInCollectionView:(UICollectionView *)collectionView {
-#warning Incomplete method implementation -- Return the number of sections
-    return 0;
+    return 1;
 }
 
 
 - (NSInteger)collectionView:(UICollectionView *)collectionView numberOfItemsInSection:(NSInteger)section {
-#warning Incomplete method implementation -- Return the number of items in the section
-    return 0;
+    
+    return 1;
 }
 
+
 - (UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath {
-    UICollectionViewCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:reuseIdentifier forIndexPath:indexPath];
     
-    // Configure the cell
+    
+    AvenuefaCollectionViewCell* cell = [collectionView dequeueReusableCellWithReuseIdentifier:@"Cell" forIndexPath:indexPath];
+    
+    
+    cell.dianZ.text=@"123485";
+    
     
     return cell;
 }
-
+//-(void)collectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath
+//{
+//    
+//    
+//    //模态方式显示控制器
+//    
+//}
+//- (CGSize)collectionView:(UICollectionView *)collectionView layout:(UICollectionViewLayout*)collectionViewLayout sizeForItemAtIndexPath:(NSIndexPath *)indexPath
+//{
+//    CGSize size=CGSizeZero;
+//    size=CGSizeMake(([UIScreen mainScreen].bounds.size.width-32)/2, 203);
+//    return size;
+//}
+//- (UIEdgeInsets)collectionView:(UICollectionView *)collectionView layout:(UICollectionViewLayout*)collectionViewLayout insetForSectionAtIndex:(NSInteger)section
+//{
+//    UIEdgeInsets edgeInsets=UIEdgeInsetsMake(8, 8, 0, 8);
+//    return edgeInsets;
+//}
 #pragma mark <UICollectionViewDelegate>
 
 /*

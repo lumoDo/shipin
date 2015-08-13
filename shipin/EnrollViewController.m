@@ -26,21 +26,10 @@
 }
 - (void)initSegmentedControl
 {
-    
-// 
-//    /*
-//     这个是设置按下按钮时的颜色
-//     */
     [[_category layer] setCornerRadius:5.0f];
     [[_category layer] setMasksToBounds:YES];
     _category.tintColor = [UIColor redColor];
-
-    _category.selectedSegmentIndex = 0;//默认选中的按钮索引
-//
-//    
-//    /*
-//     下面的代码实同正常状态和按下状态的属性控制,比如字体的大小和颜色等
-//     */
+    _category.selectedSegmentIndex = 0;
     NSDictionary *attributes = [NSDictionary dictionaryWithObjectsAndKeys:[UIFont boldSystemFontOfSize:16],NSFontAttributeName,[UIColor whiteColor], NSForegroundColorAttributeName, nil,nil];
     
     
@@ -50,12 +39,7 @@
     NSDictionary *highlightedAttributes = [NSDictionary dictionaryWithObject:[UIColor whiteColor] forKey:NSForegroundColorAttributeName];
     
     [_category setTitleTextAttributes:highlightedAttributes forState:UIControlStateHighlighted];
-    
-//    //设置分段控件点击相应事件
-//    [_category addTarget:self action:@selector(doSomethingInSegment:)forControlEvents:UIControlEventValueChanged];
-//    
-//    [self.view addSubview:_category];
-}
+    }
 //-(void)doSomethingInSegment:(UISegmentedControl *)Seg
 //{
 //    
@@ -79,32 +63,20 @@
     if ([sender selectedSegmentIndex] == 0) {
         self.bian.hidden = NO;
         self.oneView.hidden=YES;
+        self.cSPAV.hidden=YES;
     }
-    else {
+    else if([sender selectedSegmentIndex]==1){
         self.bian.hidden = YES;
         self.oneView.hidden=NO;
-        
+        self.cSPAV.hidden=YES;
+    }else{
+        self.bian.hidden = YES;
+        self.oneView.hidden=YES;
+        self.cSPAV.hidden=NO;
     }
 }
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
-}
-*/
-
 - (IBAction)selfAV:(id)sender {
 }
-
-- (IBAction)OK:(id)sender {
-    
-    
-    
-    
-    
+- (IBAction)selfAVT:(id)sender {
 }
-
 @end
